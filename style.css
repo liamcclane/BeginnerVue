@@ -1,14 +1,17 @@
-* {
-    outline: 1px dotted red;
-}
 .female h5, .female, .female p{
     background-color: rgb(255, 234, 238);
 } 
 .male, .male h5, .male p {
-    background-color: rgb(35, 35, 248);
+    background-color: rgb(69, 69, 224);
+}
+.my-btn {
+    border: 2px solid black;
+    border-radius: 1em;
+    text-align: center;
+    max-height: 200px;
 }
 .gradient-text{
-  font-family:"Abril Fatface", sans-serif;
+   font-family:"Abril Fatface", sans-serif;
     background: linear-gradient(to right, crimson,rgb(255, 255, 255),springgreen);
     background-size: 200% 200%;
     animation: rainbow 2s ease-in-out infinite;
