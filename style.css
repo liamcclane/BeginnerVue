@@ -1,0 +1,36 @@
+* {
+    outline: 1px dotted red;
+}
+.female h5, .female, .female p{
+    background-color: rgb(255, 234, 238);
+} 
+.male, .male h5, .male p {
+    background-color: rgb(35, 35, 248);
+}
+.gradient-text{
+  font-family:"Abril Fatface", sans-serif;
+    background: linear-gradient(to right, crimson,rgb(255, 255, 255),springgreen);
+    background-size: 200% 200%;
+    animation: rainbow 2s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:rgba(0,0,0,1);
+    font-size:2rem;
+    width:200px;
+    display:block;
+    transition: color .2s ease-in-out;
+    font-weight:700;
+    /*   text-align:center; */
+    /* text-transform:uppercase; */
+    /* outline: 1px dotted red; */
+    /* height: 200px; */
+/*   margin:30vh auto; */
+}
+.gradient-text:hover{
+    color:rgba(0,0,0,0);
+}
+@keyframes rainbow { 
+    0%{background-position:left}
+    50%{background-position:right}
+    100%{background-position:left}
+}
